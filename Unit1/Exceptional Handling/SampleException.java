@@ -1,6 +1,4 @@
-package Unit1;
-
- class UserException extends Exception{
+class UserException extends Exception{
     int num1;
     UserException(int num1){
         this.num1 = num1;

@@ -1,7 +1,5 @@
 import java.io.RandomAccessFile;
-import java.net.SocketPermission;
 import java.io.IOException;
-import java.io.RandomAccessFile;
 
 public class RandomAccess{
     public static void main(String[] args) throws IOException {

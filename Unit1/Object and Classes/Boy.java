@@ -1,4 +1,4 @@
-package Unit1;
+//Example of method overriding
  class Human {
     //overriden method
     public void eat(){

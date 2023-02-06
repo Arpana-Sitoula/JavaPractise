@@ -1,4 +1,4 @@
-package Unit1;
+
 class MyCustomException extends Exception{
     public String toString(){
 return "hellooo";
