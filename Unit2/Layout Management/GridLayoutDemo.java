@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class Grid {
+public class GridLayoutDemo {
  
 public static void main(String[] args) {
     JFrame jf = new JFrame();

@@ -1,5 +1,4 @@
 package Unit3;
-
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;

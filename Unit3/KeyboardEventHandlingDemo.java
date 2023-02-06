@@ -1,12 +1,12 @@
-//Program to trap a key which is pressed on the keyboard and display its name in the txt area.
 package Unit3;
+//Program to trap a key which is pressed on the keyboard and display its name in the txt area.
 
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import java.awt.event.*;
 
-public class EventHandlingDemo {
+public class KeyboardEventHandlingDemo {
     public static void main(String[] args) {
         JTextArea textarea = new JTextArea();
         JFrame jf = new JFrame();
