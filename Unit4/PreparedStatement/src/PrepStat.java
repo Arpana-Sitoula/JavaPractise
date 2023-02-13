@@ -1,7 +1,7 @@
 
 import java.sql.*;
 
-public class App {
+public class PrepStat {
     public static void main(String[] args) throws SQLException {
         Connection connection = null;
         PreparedStatement preparedStatement = null;

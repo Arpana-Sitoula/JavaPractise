@@ -1,27 +1,26 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\abi3c\\Downloads\\mysql-connector-j-8.0.31\\mysql-connector-j-8.0.31\\mysql-connector-j-8.0.31.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.base.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.controls.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.fxml.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.graphics.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.media.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.swing.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.web.jar",
-        "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx-swt.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\charsets.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\deploy.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\javaws.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\jce.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\jfr.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\jfxswt.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\jsse.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\management-agent.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\plugin.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\resources.jar",
-        "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\rt.jar"
-    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.base.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.controls.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.fxml.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.graphics.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.media.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.swing.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.web.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx-swt.jar",
+            "c:\\Users\\abi3c\\Downloads\\mysql-connector-j-8.0.31\\mysql-connector-j-8.0.31\\mysql-connector-j-8.0.31.jar"
+        ],
+        "exclude": [
+            "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\charsets.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.swing.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.media.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.graphics.jar",
+            "c:\\Program Files (x86)\\Java\\javafx-sdk-19.0.2.1\\lib\\javafx.fxml.jar",
+            "c:\\Program Files (x86)\\Java\\jre1.8.0_251\\lib\\rt.jar"
+        ]
+    },
     "explorer.compactFolders": false
 }

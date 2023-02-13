@@ -1,6 +1,7 @@
+
 import java.sql.*;
 
-public class App {
+public class DBConnec {
     public static void main(String[] args) {
         try {
             // Load the JDBC driver
