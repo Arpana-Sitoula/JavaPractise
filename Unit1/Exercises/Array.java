@@ -5,19 +5,20 @@ package Unit1.Exercises;
 public class Array {
     public static int isAllPossibilities(int[] arr) {
         int n = arr.length;
-        boolean[] seen = new boolean[n];
+       boolean[] seen = new boolean[n];
     
         for (int num : arr) {
             if (num < 0 || num >= n || seen[num]) {
                 return 0;
             }
             seen[num] = true;
+
         }
     
         return 1;
     }
     public static void main(String[] args) {
-        int[] arr1 = {0, 1, 2, 3};
+        int[] arr1 = {0, 1, 2, 5};
         int[] arr2 = {0, 2, 1, 3};
         int[] arr3 = {0, 1, 2, 3, 4};
         int[] arr4 = {0, 1, 3, 4};
