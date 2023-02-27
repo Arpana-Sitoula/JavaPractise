@@ -1,3 +1,4 @@
+//Write a program to read an input string from the user and write the vowels of that string in VOWEL.txt and consonants in CONSONANT.txt
 package Unit1.Exercises;
 
 import java.io.*;
