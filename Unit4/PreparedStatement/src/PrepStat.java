@@ -1,4 +1,4 @@
-
+//package Unit4.PreparedStatement.src;
 import java.sql.*;
 
 public class PrepStat {
@@ -19,7 +19,7 @@ public class PrepStat {
 
             // Set the parameters
             preparedStatement.setInt(1,05);
-            preparedStatement.setString(2, "John Doe");
+            preparedStatement.setString(2, "Chandu");
             preparedStatement.setString(3, "Pkh");
 
             // Execute the statement
