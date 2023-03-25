@@ -15,7 +15,7 @@ public class BorderPaneDemo extends Application {
         bp.setLeft(new Button("button left"));
         bp.setRight(new Button("button right"));
         bp.setCenter(new Button("button center"));
-        bp.setBottom(new Button("button center"));
+        bp.setBottom(new Button("button bottom"));
     
         StackPane root = new StackPane();
         root.getChildren().add(bp);

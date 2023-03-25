@@ -1,4 +1,3 @@
-package Unit7;
 
 import java.io.*;
 import javax.servlet.*;
@@ -18,6 +17,6 @@ public class SimpleServlet extends HttpServlet {
         out.println("<h1>"+message+"</h1>");
     }
     public void destroy(){
-        
+        //do nothing
     }
 }
