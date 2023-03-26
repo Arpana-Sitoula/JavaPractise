@@ -1,11 +1,13 @@
 package Unit8.RmiApp;
 
-import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 public class Client {
     public static void main(String[] args) {
     try{
-        Hello obj = (Hello) Naming.lookup("//localhost/Hello");
+        Registry reg = LocateRegistry.getRegistry(1234);
+        Hello obj = (Hello) reg.lookup("");
 
         String message = obj.sayHello();
         System.out.println(message);
