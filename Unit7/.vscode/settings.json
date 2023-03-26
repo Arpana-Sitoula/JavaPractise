@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\abi3c\\Desktop\\servlet-api.jar"
-    ]
-}
